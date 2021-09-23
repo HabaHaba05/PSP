@@ -7,7 +7,7 @@ using Xunit;
 
 namespace UnitTests.Validator
 {
-    public class PhoneValidatorUnitTests
+    public abstract class PhoneValidatorUnitTests
     {
         protected PhoneValidator _sut;
 
