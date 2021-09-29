@@ -1,0 +1,12 @@
+## PasswordValidator Tests:
+#### Reikalavimas: Tikrina ar slaptažodžio ilgis netrumpesnis nei X
+Dėja bet šiuose testuose nepaduodamas joks X
+Galbūt mūsų reikalivimas turėti slaptažodį tiesiog ilgesnį už 1 ir šiuo atveju GivenPasswordValidator_WhenPasswordIsTooShort_ReturnsFalse FAILINA
+Tas pats galioja su kitais testais jeigu mes norime turėti labai ilgą passworda pvz. X=30
+
+#### Reikalavimas: Tikrina ar yra specialus simbolis (specialių simbolių sąrašas turi būti konfiguruojamas)
+Taip pat nepaduodamas joks specialių simbolių sąrašas - tos pačios problemos kaip ir su ilgiu
+GivenPasswordValidator_WhenPasswordContainsInvalidSpecialSymbol_ReturnsTrue - Nežinau kas buvo norėta pasakyti su InvalidSpecialSymbol ir logiškai mąstant kodėl jeigu passworde yra kažkoks tai Invalid simbolis jis gražina True? Testo nepanaikinu tiesiog jį Skipin'u
+
+#### Reikalavimas: Tikrina ar yra Uppercase simbolių
+GivenPasswordValidator_WhenPasswordDoesntHaveDigit_ReturnsFalse() Tokio reikalavimo nebuvo, testo nepanaikinu tiesiog jį Skipin'u
