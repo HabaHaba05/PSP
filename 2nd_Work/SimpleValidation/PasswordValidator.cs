@@ -31,9 +31,9 @@ namespace SimpleValidation
 
         private bool ContainsSpecialCharacter(string password)
         {
-            foreach(char letter in password)
+            foreach(char character in password)
             {
-                if (_specialCharacters.Contains(letter))
+                if (_specialCharacters.Contains(character))
                 {
                     return true;
                 }
@@ -42,7 +42,7 @@ namespace SimpleValidation
             return false;
         }
 
-        private bool ContainsUppercase(string password)
+        private static bool ContainsUppercase(string password)
         {
             var lowerCasePassword = password.ToLower();
             return !password.Equals(lowerCasePassword);
