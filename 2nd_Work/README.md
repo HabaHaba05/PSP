@@ -8,7 +8,7 @@ Tas pats galioja su kitais testais jeigu mes norime turėti labai ilgą password
 Taip pat nepaduodamas joks specialių simbolių sąrašas - tos pačios problemos kaip ir su ilgiu
 GivenPasswordValidator_WhenPasswordContainsInvalidSpecialSymbol_ReturnsTrue - Nežinau kas buvo norėta pasakyti su InvalidSpecialSymbol ir logiškai mąstant kodėl jeigu passworde yra kažkoks tai Invalid simbolis jis gražina True? Testo nepanaikinu tiesiog jį Skipin'u
 
-#### Reikalavimas: Tikrina ar yra Uppercase simbolių
+##### Kita
 GivenPasswordValidator_WhenPasswordDoesntHaveDigit_ReturnsFalse() Tokio reikalavimo nebuvo, testo nepanaikinu tiesiog jį Skipin'u
 
 ## PhoneValidator Tests:
