@@ -92,8 +92,8 @@ namespace SimpleValidation.Tests
             var result1 = _emailValidator.Validate(email1);
             var result2 = _emailValidator.Validate(email2);
             
-            Assert.IsFalse(result1);
-            Assert.IsFalse(result2);
+            Assert.IsTrue(result1);
+            Assert.IsTrue(result2);
         }
 
         [Test]

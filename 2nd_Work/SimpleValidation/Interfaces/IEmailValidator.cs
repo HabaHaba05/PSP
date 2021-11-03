@@ -2,6 +2,6 @@
 {
     public interface IEmailValidator
     {
-        public bool Validate(string email);
+        bool Validate(string email);
     }
 }
